@@ -1,0 +1,115 @@
+/********** general ************/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section {
+  padding: 5px 0;
+}
+
+
+/****** colonne ******/
+[class*="col-"] {
+  height: 180px;
+
+}
+
+/***** header *****/
+header {
+  background-color: #000;
+}
+
+#logo {
+  background: url(../../img/profile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#menu ul {
+  list-style-type: none;
+}
+
+#menu li {
+  text-align: center;
+  vertical-align: middle;
+  padding: 75px 0;
+  font-size: 18px;
+}
+
+#menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
+
+/******** section Val di Fassa *******/
+.col-12 {
+  background: url(../../img/mountain.jpg) no-repeat;
+  background-size: cover;
+  background-position: center -424px;
+}
+
+/* section Fuerteventura */
+#fuerteventura .col-4:first-child {
+  background: url(../../img/fuerte1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center -5px;
+}
+
+#fuerteventura .col-4:nth-child(2) {
+  background: url(../../img/fuerte3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#fuerteventura .col-4:last-child {
+  background: url(../../img/fuerte2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center -30px;
+}
+
+
+/* section Londra */
+#londra .col-6:first-child {
+  background: url(../../img/londra1.jpg) no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+
+#londra .col-6:last-child {
+  background: url(../../img/londra2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* section Roma */
+#roma .col-5 {
+  background: url(../../img/roma1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center -30px;
+}
+
+#roma .col-3 {
+  background: url(../../img/roma3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center 0;
+}
+
+#roma .col-4 {
+  background: url(../../img/roma2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
