@@ -4,3 +4,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+main {
+  padding: 20px 15px;
+}
+
+/****** colonne ******/
+[class*="col-"] {
+  height: 180px;
+  border: solid 1px #000;
+}

@@ -14,12 +14,12 @@
 }
 
 /***** regole colonne *****/
-[class="col-"] {
+[class*="col-"] {
   float: left;
 }
 
 .col-1 {
-  width: calc(100%/12);
+  width: calc( 100% / 12);
 }
 
 .col-2 {
